@@ -1,0 +1,3222 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="b3e8-c91c-252d-0ab2" name="Aberrants" book="Rulebook" revision="1" battleScribeVersion="2.01" authorName="Mr. Vitrio" authorContact="mr.vitriol@web.de" gameSystemId="50a9-cc7d-a2f9-64c9" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <profiles/>
+  <rules/>
+  <infoLinks/>
+  <costTypes/>
+  <profileTypes/>
+  <categoryEntries/>
+  <forceEntries/>
+  <selectionEntries/>
+  <entryLinks>
+    <entryLink id="205f-f73b-4b14-d25f" name="Aberrant" hidden="false" targetId="215e-8a57-f4b8-874b" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="c626-099f-31ab-0473" name="Character" hidden="false" targetId="7db3-5516-f4fa-9d29" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="cce4-def2-c7e8-1c4c" name="Support Group Krikquill" hidden="false" targetId="e68f-3ff6-a402-d6e4" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="a3a0-1b00-c5a2-f9c1" name="Support Group Trog" hidden="false" targetId="da1a-408d-3268-b76d" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+  </entryLinks>
+  <sharedSelectionEntries>
+    <selectionEntry id="215e-8a57-f4b8-874b" name="Aberrant" book="Rulebook" page="75" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="19fe-609c-c2a8-159f" name="Abilities" book="Rulebook" page="43" hidden="false" profileTypeId="33c0-4b41-8772-5bb4" profileTypeName="Abilities">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="increment" field="5347-6c55-6c62-1220" value="1">
+              <repeats>
+                <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b60c-f168-9089-6442" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="dfea-027c-41a7-6dca" value="1">
+              <repeats>
+                <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7cc5-20aa-91a4-3fed" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="9062-ea58-07e6-2585" value="1">
+              <repeats>
+                <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="babc-e8a4-8c58-55ee" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="4dda-30f2-a9cf-ecf4" value="1">
+              <repeats>
+                <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="288c-9203-705b-7ffd" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="e185-e99d-e0b5-3de8" value="1">
+              <repeats>
+                <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e2f8-ca2e-b3f7-4a11" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="STR" characteristicTypeId="5347-6c55-6c62-1220" value="0"/>
+            <characteristic name="DEX" characteristicTypeId="dfea-027c-41a7-6dca" value="0"/>
+            <characteristic name="STA" characteristicTypeId="9062-ea58-07e6-2585" value="0"/>
+            <characteristic name="MEN" characteristicTypeId="4dda-30f2-a9cf-ecf4" value="0"/>
+            <characteristic name="SOC" characteristicTypeId="e185-e99d-e0b5-3de8" value="0"/>
+          </characteristics>
+        </profile>
+        <profile id="4331-964b-c95f-d8ef" name="Combat Stats" book="Rulebook" page="76" hidden="false" profileTypeId="25de-1bf8-ab80-d7e5" profileTypeName="Combat Stats">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="increment" field="cd14-fabb-551c-0b28" value="1">
+              <repeats>
+                <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7cc5-20aa-91a4-3fed" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="71fc-9bc1-89f3-f796" value="1">
+              <repeats>
+                <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7cc5-20aa-91a4-3fed" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="a752-74f4-91f0-17e7" value="1">
+              <repeats>
+                <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b60c-f168-9089-6442" repeats="1" roundUp="false"/>
+                <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="df8e-a2ac-0281-4442" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="f57a-432e-7c63-2f03" value="1">
+              <repeats>
+                <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="babc-e8a4-8c58-55ee" repeats="1" roundUp="false"/>
+                <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="78f7-e950-18e8-d284" repeats="1" roundUp="false"/>
+                <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3fb9-f944-e52d-8fa3" repeats="1" roundUp="false"/>
+                <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6bfd-8fa4-1175-a2dc" repeats="2" roundUp="false"/>
+                <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="55b6-4bb1-e131-6ea1" repeats="2" roundUp="false"/>
+                <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cb93-a3d7-db25-4dcf" repeats="3" roundUp="false"/>
+                <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2065-f081-9cf6-091f" repeats="4" roundUp="false"/>
+                <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8558-b5cb-f74b-67a8" repeats="5" roundUp="false"/>
+                <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4471-a091-09dd-3601" repeats="1" roundUp="false"/>
+                <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="29d9-b42d-e3e7-4a5a" repeats="3" roundUp="false"/>
+                <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="254f-f11f-1750-cd9f" repeats="3" roundUp="false"/>
+                <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c143-c6dd-bee1-17d6" repeats="5" roundUp="false"/>
+                <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a49a-ef31-08dd-7859" repeats="1" roundUp="false"/>
+                <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5c3d-454b-8085-c79a" repeats="1" roundUp="false"/>
+                <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0b60-4a26-3a1c-9513" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Ranged" characteristicTypeId="cd14-fabb-551c-0b28" value="0"/>
+            <characteristic name="Heavy Weapons" characteristicTypeId="71fc-9bc1-89f3-f796" value="0"/>
+            <characteristic name="Close Combat" characteristicTypeId="a752-74f4-91f0-17e7" value="0"/>
+            <characteristic name="Soak" characteristicTypeId="f57a-432e-7c63-2f03" value="0"/>
+          </characteristics>
+        </profile>
+        <profile id="4efc-da30-56e8-4200" name="Secondary Attributes" book="Rulebook" page="75" hidden="false" profileTypeId="5c1f-b21d-7cc7-bf5f" profileTypeName="Secondary Abilities">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="increment" field="69c7-93fe-5e59-76d7" value="1">
+              <repeats>
+                <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e2f8-ca2e-b3f7-4a11" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="4f50-7d5e-70d7-80cd" value="1">
+              <repeats>
+                <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="babc-e8a4-8c58-55ee" repeats="1" roundUp="false"/>
+                <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b60c-f168-9089-6442" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="b396-7827-5b33-4909" value="1">
+              <repeats>
+                <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="156b-2ce0-f846-a6e1" repeats="1" roundUp="false"/>
+                <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e072-d8b9-e178-6005" repeats="2" roundUp="false"/>
+                <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ccee-a908-64f7-5787" repeats="3" roundUp="false"/>
+                <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3850-017d-eb6b-3e3f" repeats="4" roundUp="false"/>
+                <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b61e-4337-b905-ab60" repeats="5" roundUp="false"/>
+                <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="54aa-2255-f10b-6a2e" repeats="6" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="68c0-a4fc-8906-8eda" value="1">
+              <repeats>
+                <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e072-d8b9-e178-6005" repeats="4" roundUp="false"/>
+                <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ccee-a908-64f7-5787" repeats="6" roundUp="false"/>
+                <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3850-017d-eb6b-3e3f" repeats="8" roundUp="false"/>
+                <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b61e-4337-b905-ab60" repeats="10" roundUp="false"/>
+                <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="54aa-2255-f10b-6a2e" repeats="12" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="76ba-63d0-814f-655f" value="1">
+              <repeats>
+                <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="288c-9203-705b-7ffd" repeats="1" roundUp="false"/>
+                <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e2f8-ca2e-b3f7-4a11" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="2dcc-748a-9e6c-f032" value="1">
+              <repeats>
+                <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b60c-f168-9089-6442" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Health" characteristicTypeId="4f50-7d5e-70d7-80cd" value="0"/>
+            <characteristic name="Init" characteristicTypeId="69c7-93fe-5e59-76d7" value="0"/>
+            <characteristic name="PSI/Taint" characteristicTypeId="76ba-63d0-814f-655f" value="0"/>
+            <characteristic name="APs" characteristicTypeId="b396-7827-5b33-4909" value="3"/>
+            <characteristic name="Command Radius" characteristicTypeId="68c0-a4fc-8906-8eda" value="0"/>
+            <characteristic name="Carrying Capacity" characteristicTypeId="2dcc-748a-9e6c-f032" value="0"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers>
+        <modifier type="set" field="name" value="1st Caste Aberrant">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="156b-2ce0-f846-a6e1" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="name" value="2nd Caste Aberrant">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e072-d8b9-e178-6005" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="name" value="3rd Caste Aberrant">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ccee-a908-64f7-5787" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="name" value="4th Caste Aberrant">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3850-017d-eb6b-3e3f" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="name" value="5th Caste Aberrant">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b61e-4337-b905-ab60" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="name" value="6th Caste Aberrant">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="54aa-2255-f10b-6a2e" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="f0ed-f9ca-8af7-0526" name="New CategoryLink" hidden="false" targetId="7db3-5516-f4fa-9d29" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="7ce3-dc1a-dbee-f080" name="2 - Abilities" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="increment" field="f833-3cd1-e120-1524" value="3">
+              <repeats>
+                <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="156b-2ce0-f846-a6e1" repeats="1" roundUp="false"/>
+                <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e072-d8b9-e178-6005" repeats="2" roundUp="false"/>
+                <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3850-017d-eb6b-3e3f" repeats="4" roundUp="false"/>
+                <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b61e-4337-b905-ab60" repeats="5" roundUp="false"/>
+                <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="54aa-2255-f10b-6a2e" repeats="6" roundUp="false"/>
+                <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ccee-a908-64f7-5787" repeats="3" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="f8fa-e048-3bde-f0f7" value="3">
+              <repeats>
+                <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b61e-4337-b905-ab60" repeats="5" roundUp="false"/>
+                <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="54aa-2255-f10b-6a2e" repeats="6" roundUp="false"/>
+                <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ccee-a908-64f7-5787" repeats="3" roundUp="false"/>
+                <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="156b-2ce0-f846-a6e1" repeats="1" roundUp="false"/>
+                <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e072-d8b9-e178-6005" repeats="2" roundUp="false"/>
+                <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3850-017d-eb6b-3e3f" repeats="4" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="215e-8a57-f4b8-874b" value="13.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f833-3cd1-e120-1524" type="max"/>
+            <constraint field="selections" scope="215e-8a57-f4b8-874b" value="13.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f8fa-e048-3bde-f0f7" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="7cc5-20aa-91a4-3fed" name="Dexterity" hidden="false" targetId="f806-f7e6-8b14-243b" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="a12e-bce0-f6ee-9b89" value="5">
+                  <repeats>
+                    <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="156b-2ce0-f846-a6e1" repeats="1" roundUp="false"/>
+                  </repeats>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+                <modifier type="set" field="a12e-bce0-f6ee-9b89" value="6">
+                  <repeats>
+                    <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ccee-a908-64f7-5787" repeats="1" roundUp="false"/>
+                    <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e072-d8b9-e178-6005" repeats="1" roundUp="false"/>
+                  </repeats>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+                <modifier type="set" field="a12e-bce0-f6ee-9b89" value="7">
+                  <repeats>
+                    <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3850-017d-eb6b-3e3f" repeats="1" roundUp="false"/>
+                    <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b61e-4337-b905-ab60" repeats="1" roundUp="false"/>
+                  </repeats>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+                <modifier type="set" field="a12e-bce0-f6ee-9b89" value="8">
+                  <repeats>
+                    <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="54aa-2255-f10b-6a2e" repeats="1" roundUp="false"/>
+                  </repeats>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="215e-8a57-f4b8-874b" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a12e-bce0-f6ee-9b89" type="max"/>
+                <constraint field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d822-3e35-3dcd-79c9" type="min"/>
+              </constraints>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="288c-9203-705b-7ffd" name="Mental" hidden="false" targetId="cec8-75b0-d9bc-3573" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="f9b7-e7ae-8909-a52c" value="5">
+                  <repeats>
+                    <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="156b-2ce0-f846-a6e1" repeats="1" roundUp="false"/>
+                  </repeats>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+                <modifier type="set" field="f9b7-e7ae-8909-a52c" value="6">
+                  <repeats>
+                    <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e072-d8b9-e178-6005" repeats="1" roundUp="false"/>
+                    <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ccee-a908-64f7-5787" repeats="1" roundUp="false"/>
+                  </repeats>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+                <modifier type="set" field="f9b7-e7ae-8909-a52c" value="7">
+                  <repeats>
+                    <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b61e-4337-b905-ab60" repeats="1" roundUp="false"/>
+                    <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3850-017d-eb6b-3e3f" repeats="1" roundUp="false"/>
+                  </repeats>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+                <modifier type="set" field="f9b7-e7ae-8909-a52c" value="8">
+                  <repeats>
+                    <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="54aa-2255-f10b-6a2e" repeats="1" roundUp="false"/>
+                  </repeats>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="215e-8a57-f4b8-874b" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f9b7-e7ae-8909-a52c" type="max"/>
+                <constraint field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9c80-accd-4de3-64f7" type="min"/>
+              </constraints>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="e2f8-ca2e-b3f7-4a11" name="Social" hidden="false" targetId="0d52-59f5-943e-e67d" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="1241-7865-f3ed-4453" value="5">
+                  <repeats>
+                    <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="156b-2ce0-f846-a6e1" repeats="1" roundUp="false"/>
+                  </repeats>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+                <modifier type="set" field="1241-7865-f3ed-4453" value="6">
+                  <repeats>
+                    <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ccee-a908-64f7-5787" repeats="1" roundUp="false"/>
+                    <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e072-d8b9-e178-6005" repeats="1" roundUp="false"/>
+                  </repeats>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+                <modifier type="set" field="1241-7865-f3ed-4453" value="7">
+                  <repeats>
+                    <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b61e-4337-b905-ab60" repeats="1" roundUp="false"/>
+                    <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3850-017d-eb6b-3e3f" repeats="1" roundUp="false"/>
+                  </repeats>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+                <modifier type="set" field="1241-7865-f3ed-4453" value="8">
+                  <repeats>
+                    <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="54aa-2255-f10b-6a2e" repeats="1" roundUp="false"/>
+                  </repeats>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="215e-8a57-f4b8-874b" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1241-7865-f3ed-4453" type="max"/>
+                <constraint field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dcef-11fa-4be4-9c99" type="min"/>
+              </constraints>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="babc-e8a4-8c58-55ee" name="Stamina" hidden="false" targetId="171e-03e5-938d-7983" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="4ebf-0a4e-f0fc-7ae8" value="8">
+                  <repeats>
+                    <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="54aa-2255-f10b-6a2e" repeats="1" roundUp="false"/>
+                  </repeats>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+                <modifier type="set" field="4ebf-0a4e-f0fc-7ae8" value="6">
+                  <repeats>
+                    <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ccee-a908-64f7-5787" repeats="1" roundUp="false"/>
+                    <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e072-d8b9-e178-6005" repeats="1" roundUp="false"/>
+                  </repeats>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+                <modifier type="set" field="4ebf-0a4e-f0fc-7ae8" value="7">
+                  <repeats>
+                    <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b61e-4337-b905-ab60" repeats="1" roundUp="false"/>
+                    <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3850-017d-eb6b-3e3f" repeats="1" roundUp="false"/>
+                  </repeats>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+                <modifier type="set" field="4ebf-0a4e-f0fc-7ae8" value="5">
+                  <repeats>
+                    <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="156b-2ce0-f846-a6e1" repeats="1" roundUp="false"/>
+                  </repeats>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="215e-8a57-f4b8-874b" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4ebf-0a4e-f0fc-7ae8" type="max"/>
+                <constraint field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e450-0e0d-52be-2cea" type="min"/>
+              </constraints>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="b60c-f168-9089-6442" name="Strength" hidden="false" targetId="8c48-2777-4ea5-2157" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="5ec4-070a-b03f-a9ad" value="5">
+                  <repeats>
+                    <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="156b-2ce0-f846-a6e1" repeats="1" roundUp="false"/>
+                  </repeats>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+                <modifier type="set" field="5ec4-070a-b03f-a9ad" value="6">
+                  <repeats>
+                    <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ccee-a908-64f7-5787" repeats="1" roundUp="false"/>
+                    <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e072-d8b9-e178-6005" repeats="1" roundUp="false"/>
+                  </repeats>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+                <modifier type="set" field="5ec4-070a-b03f-a9ad" value="7">
+                  <repeats>
+                    <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3850-017d-eb6b-3e3f" repeats="1" roundUp="false"/>
+                    <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b61e-4337-b905-ab60" repeats="1" roundUp="false"/>
+                  </repeats>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+                <modifier type="set" field="5ec4-070a-b03f-a9ad" value="8">
+                  <repeats>
+                    <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="54aa-2255-f10b-6a2e" repeats="1" roundUp="false"/>
+                  </repeats>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="215e-8a57-f4b8-874b" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5ec4-070a-b03f-a9ad" type="max"/>
+                <constraint field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c354-41dc-f3f6-cde5" type="min"/>
+              </constraints>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="b5e6-005e-308f-334c" name="5 - Human Equipment" book="Rulebook" page="69" hidden="true" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="9ff8-f2dd-5a77-ca6d" value="-1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f94d-673c-8663-827f" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="hidden" value="false">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f94d-673c-8663-827f" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="215e-8a57-f4b8-874b" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9ff8-f2dd-5a77-ca6d" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="f4d4-9736-04d7-784c" name="I - Armor" hidden="false" collective="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b551-ecd0-a63b-a18c" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks>
+                <entryLink id="29d9-b42d-e3e7-4a5a" name="Armor Carapace  (AR:3)" hidden="false" targetId="b21b-c43e-302a-e8cc" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="increment" field="5837-a331-efab-0a68" value="10">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+                <entryLink id="4471-a091-09dd-3601" name="Armor Vest (AR:2)" hidden="false" targetId="06d8-5c24-8f52-0760" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="increment" field="5837-a331-efab-0a68" value="10">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+                <entryLink id="c143-c6dd-bee1-17d6" name="Combat Armor (AR:5)" hidden="false" targetId="1d4a-fcdc-61c3-a5ce" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="increment" field="5837-a331-efab-0a68" value="10">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+                <entryLink id="254f-f11f-1750-cd9f" name="Field Suit (AR:3)" hidden="false" targetId="3324-da68-5206-c2f5" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="increment" field="5837-a331-efab-0a68" value="10">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="4697-8d7c-4a86-92eb" name="II - Ranged Weapons" hidden="false" collective="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks>
+                <entryLink id="b718-a7b5-861c-8ff9" name="Aris Sonic Carbine" hidden="false" targetId="ca05-1016-bf45-9261" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="increment" field="5837-a331-efab-0a68" value="10">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+                <entryLink id="f840-a168-08ad-ef46" name="Banji Cyclone" hidden="false" targetId="2965-04d2-e1d7-cd15" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="increment" field="5837-a331-efab-0a68" value="10">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+                <entryLink id="e6a4-ff99-c309-0f1f" name="Banji Thunder Shotgun" hidden="false" targetId="32f4-b6bd-9c92-476d" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="increment" field="5837-a331-efab-0a68" value="10">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+                <entryLink id="a402-e201-3f6e-3b60" name="L-K Avenger" hidden="false" targetId="51d0-1ac4-ffa5-ab62" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="increment" field="5837-a331-efab-0a68" value="10">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+                <entryLink id="c1cb-b511-a7a2-8128" name="L-K MAC-803 Auto" hidden="false" targetId="1918-497d-da1f-6b31" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="increment" field="5837-a331-efab-0a68" value="10">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+                <entryLink id="0c79-fa7d-30ec-159d" name="Voss 63K Laser" hidden="false" targetId="b762-52b1-36ec-8956" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="increment" field="5837-a331-efab-0a68" value="10">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="83b8-e99e-f36a-b65e" name="III - Heavy Weapons" hidden="false" collective="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks>
+                <entryLink id="a49a-ef31-08dd-7859" name="L-K Junior Light Coilgun" hidden="false" targetId="3fd3-e877-967e-b24f" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="increment" field="5837-a331-efab-0a68" value="10">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+                <entryLink id="5c3d-454b-8085-c79a" name="L-K Killjoy Missile Launcher" hidden="false" targetId="fe8e-1368-bf23-05d8" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="increment" field="5837-a331-efab-0a68" value="10">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+                <entryLink id="cd7d-42a5-5fb4-dc16" name="Grenade" hidden="false" targetId="c540-eca8-7ebd-2af6" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="increment" field="5837-a331-efab-0a68" value="10">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+                <entryLink id="0b60-4a26-3a1c-9513" name="Voss 88T Plasma Gun" hidden="false" targetId="ae60-d280-ac47-fddd" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="increment" field="5837-a331-efab-0a68" value="10">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="362b-c2e6-6f56-c282" name="IV - Melee Weapons" hidden="false" collective="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks>
+                <entryLink id="32a7-6c4e-6569-2201" name="Claws" hidden="false" targetId="008e-d9a7-8824-56b0" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="increment" field="5837-a331-efab-0a68" value="10">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+                <entryLink id="d4d2-1333-17e9-4053" name="Vibro Sword" hidden="false" targetId="3a55-78b9-b574-6d9b" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="increment" field="5837-a331-efab-0a68" value="10">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <entryLinks/>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="51b5-3ad2-64a8-058c" name="1 - Caste" hidden="false" targetId="87bd-94d4-2a99-c45d" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="a755-c16c-9a20-565b" name="4 - Mutations" hidden="false" targetId="e530-786c-f32c-75f8" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="increment" field="31c8-bfc4-a496-f205" value="1">
+              <repeats>
+                <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b60c-f168-9089-6442" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="edd2-9999-c1d3-cffb" scope="215e-8a57-f4b8-874b" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ddb0-5f39-8dcc-e63b" type="min"/>
+            <constraint field="edd2-9999-c1d3-cffb" scope="215e-8a57-f4b8-874b" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="31c8-bfc4-a496-f205" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="a875-3e36-9d66-d58d" name="3 - Powers" hidden="false" targetId="c656-7a58-bc74-e7e9" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="increment" field="58d3-d1ea-f5eb-a9d9" value="1">
+              <repeats>
+                <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e2f8-ca2e-b3f7-4a11" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="15e7-0ff0-403f-243e" value="1">
+              <repeats>
+                <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e2f8-ca2e-b3f7-4a11" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="215e-8a57-f4b8-874b" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="58d3-d1ea-f5eb-a9d9" type="max"/>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="15e7-0ff0-403f-243e" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+        <cost name="Points" costTypeId="5837-a331-efab-0a68" value="0.0"/>
+        <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e68f-3ff6-a402-d6e4" name="Support Group Krikquill" book="Rulebook" page="88" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="ba76-5b11-39e5-77ab" name="Abilities" book="Rulebook" page="43" hidden="false" profileTypeId="33c0-4b41-8772-5bb4" profileTypeName="Abilities">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="STR" characteristicTypeId="5347-6c55-6c62-1220" value="3"/>
+            <characteristic name="DEX" characteristicTypeId="dfea-027c-41a7-6dca" value="6"/>
+            <characteristic name="STA" characteristicTypeId="9062-ea58-07e6-2585" value="6"/>
+            <characteristic name="MEN" characteristicTypeId="4dda-30f2-a9cf-ecf4" value="3"/>
+            <characteristic name="SOC" characteristicTypeId="e185-e99d-e0b5-3de8" value="1"/>
+          </characteristics>
+        </profile>
+        <profile id="629b-1ca5-d486-dab2" name="Combat Stats" book="Rulebook" page="76" hidden="false" profileTypeId="25de-1bf8-ab80-d7e5" profileTypeName="Combat Stats">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Ranged" characteristicTypeId="cd14-fabb-551c-0b28" value="6"/>
+            <characteristic name="Heavy Weapons" characteristicTypeId="71fc-9bc1-89f3-f796" value="0"/>
+            <characteristic name="Close Combat" characteristicTypeId="a752-74f4-91f0-17e7" value="3"/>
+            <characteristic name="Soak" characteristicTypeId="f57a-432e-7c63-2f03" value="6"/>
+          </characteristics>
+        </profile>
+        <profile id="ab6c-6f4c-60b7-15ec" name="Secondary Attributes" book="Rulebook" page="75" hidden="false" profileTypeId="5c1f-b21d-7cc7-bf5f" profileTypeName="Secondary Abilities">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Health" characteristicTypeId="4f50-7d5e-70d7-80cd" value="5"/>
+            <characteristic name="Init" characteristicTypeId="69c7-93fe-5e59-76d7" value="1"/>
+            <characteristic name="PSI/Taint" characteristicTypeId="76ba-63d0-814f-655f" value="0"/>
+            <characteristic name="APs" characteristicTypeId="b396-7827-5b33-4909" value="6"/>
+            <characteristic name="Command Radius" characteristicTypeId="68c0-a4fc-8906-8eda" value="0"/>
+            <characteristic name="Carrying Capacity" characteristicTypeId="2dcc-748a-9e6c-f032" value="3"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="241d-64aa-9c19-3e4d" name="Support Troops" hidden="false" targetId="9547-f927-a04d-6de9" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="c267-5f21-bb71-b76b" name="Mutations" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries>
+            <selectionEntry id="7b82-5cae-c130-e1ee" name="Shooting Spines" book="Ruleboo" page="71" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="68ad-8e7c-889c-41cc" name="Shooting Spines" book="Ruleboo" page="71" hidden="false" profileTypeId="ca80-b611-54a5-fbf2" profileTypeName="Ranged Weapon">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="APs" characteristicTypeId="3c0a-fe11-d445-0c4f" value="2"/>
+                    <characteristic name="Short Range" characteristicTypeId="ef03-c22a-d909-9299" value="8"/>
+                    <characteristic name="Long Range" characteristicTypeId="8212-3e35-fc57-aeb7" value="16"/>
+                    <characteristic name="Damage" characteristicTypeId="c345-c828-2990-c666" value="4"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c552-dd37-952d-73b6" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="91f0-6128-5d37-2e07" type="min"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="1.0"/>
+                <cost name="Points" costTypeId="5837-a331-efab-0a68" value="0.0"/>
+                <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="5837-a331-efab-0a68" value="175.0"/>
+        <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+        <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="da1a-408d-3268-b76d" name="Support Group Trog" book="Miniature Pack" page="#9411" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="5d19-fae2-14e5-dc47" name="Combat Stats" book="Rulebook" page="76" hidden="false" profileTypeId="25de-1bf8-ab80-d7e5" profileTypeName="Combat Stats">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Ranged" characteristicTypeId="cd14-fabb-551c-0b28" value="6"/>
+            <characteristic name="Heavy Weapons" characteristicTypeId="71fc-9bc1-89f3-f796" value="0"/>
+            <characteristic name="Close Combat" characteristicTypeId="a752-74f4-91f0-17e7" value="5"/>
+            <characteristic name="Soak" characteristicTypeId="f57a-432e-7c63-2f03" value="7"/>
+          </characteristics>
+        </profile>
+        <profile id="48aa-78e4-3d70-a838" name="Abilities" book="Rulebook" page="43" hidden="false" profileTypeId="33c0-4b41-8772-5bb4" profileTypeName="Abilities">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="STR" characteristicTypeId="5347-6c55-6c62-1220" value="5"/>
+            <characteristic name="DEX" characteristicTypeId="dfea-027c-41a7-6dca" value="6"/>
+            <characteristic name="STA" characteristicTypeId="9062-ea58-07e6-2585" value="6"/>
+            <characteristic name="MEN" characteristicTypeId="4dda-30f2-a9cf-ecf4" value="4"/>
+            <characteristic name="SOC" characteristicTypeId="e185-e99d-e0b5-3de8" value="1"/>
+          </characteristics>
+        </profile>
+        <profile id="c6cd-1dd4-ab99-49d1" name="Secondary Attributes" book="Rulebook" page="75" hidden="false" profileTypeId="5c1f-b21d-7cc7-bf5f" profileTypeName="Secondary Abilities">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Health" characteristicTypeId="4f50-7d5e-70d7-80cd" value="6"/>
+            <characteristic name="Init" characteristicTypeId="69c7-93fe-5e59-76d7" value="1"/>
+            <characteristic name="PSI/Taint" characteristicTypeId="76ba-63d0-814f-655f" value="5"/>
+            <characteristic name="APs" characteristicTypeId="b396-7827-5b33-4909" value="10"/>
+            <characteristic name="Command Radius" characteristicTypeId="68c0-a4fc-8906-8eda" value="0"/>
+            <characteristic name="Carrying Capacity" characteristicTypeId="2dcc-748a-9e6c-f032" value="5"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="4d62-980a-0e29-de8c" name="Mutations" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries>
+            <selectionEntry id="a58e-512c-5422-d37a" name="Matter Acceleration" book="Rulebook" page="71" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="97b3-17a3-3b91-e87b" name="Matter Acceleration" book="Rulebook" page="71" hidden="false" profileTypeId="ca80-b611-54a5-fbf2" profileTypeName="Ranged Weapon">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="APs" characteristicTypeId="3c0a-fe11-d445-0c4f" value="2"/>
+                    <characteristic name="Short Range" characteristicTypeId="ef03-c22a-d909-9299" value="8"/>
+                    <characteristic name="Long Range" characteristicTypeId="8212-3e35-fc57-aeb7" value="16"/>
+                    <characteristic name="Damage" characteristicTypeId="c345-c828-2990-c666" value="3"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b52b-9b79-96fb-0a4d" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a6c9-19e0-b54e-dbb8" type="min"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="1.0"/>
+                <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+                <cost name="Points" costTypeId="5837-a331-efab-0a68" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="9010-a768-0231-61b9" name="Tough Skin (AR:1)" book="Rulebook" page="72" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6b98-bd36-9f99-b609" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="794d-3fde-d41f-58bc" type="min"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+                <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="1.0"/>
+                <cost name="Points" costTypeId="5837-a331-efab-0a68" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="5837-a331-efab-0a68" value="200.0"/>
+        <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+        <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup id="87bd-94d4-2a99-c45d" name="1 - Caste" book="Rulebook" page="75" hidden="false" collective="false" defaultSelectionEntryId="156b-2ce0-f846-a6e1">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8517-b404-e8c9-f448" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d907-7e5a-cb18-799c" type="min"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries>
+        <selectionEntry id="e072-d8b9-e178-6005" name="2nd Caste Aberrant" book="Rulebook" page="75" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="5837-a331-efab-0a68" value="150.0"/>
+            <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+            <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="156b-2ce0-f846-a6e1" name="1st Caste Aberrant" book="Rulebook" page="75" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="5837-a331-efab-0a68" value="125.0"/>
+            <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+            <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="ccee-a908-64f7-5787" name="3rd Caste Aberrant" book="Ruleook" page="75" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="5837-a331-efab-0a68" value="200.0"/>
+            <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+            <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="3850-017d-eb6b-3e3f" name="4th Caste Aberrant" book="Rulebook" page="75" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="5837-a331-efab-0a68" value="320.0"/>
+            <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+            <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="b61e-4337-b905-ab60" name="5th Caste Aberrant" book="Rulebook" page="75" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="5837-a331-efab-0a68" value="500.0"/>
+            <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+            <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="54aa-2255-f10b-6a2e" name="6th Caste Aberrant" book="Rulebook" page="75" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="5837-a331-efab-0a68" value="750.0"/>
+            <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+            <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="e530-786c-f32c-75f8" name="4 - Mutations" book="Rulebook" hidden="false" collective="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="65ac-8c9f-fa77-e9f8" name="II - Ranged Attacks" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries>
+            <selectionEntry id="26ac-df62-9aee-b983" name="Energy Wave" book="Rulebook" page="72" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="8a83-da6a-0932-090b" name="Energy Wave" book="Rulebook" page="72" hidden="false" profileTypeId="ca80-b611-54a5-fbf2" profileTypeName="Ranged Weapon">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="APs" characteristicTypeId="3c0a-fe11-d445-0c4f" value="3"/>
+                    <characteristic name="Short Range" characteristicTypeId="ef03-c22a-d909-9299" value="8"/>
+                    <characteristic name="Long Range" characteristicTypeId="8212-3e35-fc57-aeb7" value="28"/>
+                    <characteristic name="Damage" characteristicTypeId="c345-c828-2990-c666" value="3"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b398-767c-bc2f-3345" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="5837-a331-efab-0a68" value="60.0"/>
+                <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+                <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="2.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="0f0e-df40-de4b-ca85" name="Sonic Scream" book="Rulebook" page="72" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="db87-7877-851d-4347" name="Sonic Scream" book="Rulebook" page="72" hidden="false" profileTypeId="ca80-b611-54a5-fbf2" profileTypeName="Ranged Weapon">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="APs" characteristicTypeId="3c0a-fe11-d445-0c4f" value="3"/>
+                    <characteristic name="Short Range" characteristicTypeId="ef03-c22a-d909-9299" value="8"/>
+                    <characteristic name="Long Range" characteristicTypeId="8212-3e35-fc57-aeb7" value="16"/>
+                    <characteristic name="Damage" characteristicTypeId="c345-c828-2990-c666" value="3"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks>
+                <infoLink id="f2a9-18b0-adf2-7711" name="Sonic Attack" hidden="false" targetId="2620-5af3-c79e-5e29" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d1b1-4b0c-08ee-9d71" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="5837-a331-efab-0a68" value="75.0"/>
+                <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+                <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="2.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="2105-b425-45d5-b462" name="Laser Eyes" book="Rulebook" page="72" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="3241-0762-abeb-7d59" name="Laser Eyes" book="Rulebook" page="72" hidden="false" profileTypeId="ca80-b611-54a5-fbf2" profileTypeName="Ranged Weapon">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="APs" characteristicTypeId="3c0a-fe11-d445-0c4f" value="2"/>
+                    <characteristic name="Short Range" characteristicTypeId="ef03-c22a-d909-9299" value="10"/>
+                    <characteristic name="Long Range" characteristicTypeId="8212-3e35-fc57-aeb7" value="20"/>
+                    <characteristic name="Damage" characteristicTypeId="c345-c828-2990-c666" value="4"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="54b1-0a8c-d0b9-41bc" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="5837-a331-efab-0a68" value="50.0"/>
+                <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+                <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="1.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="191d-ef05-7cfc-6f27" name="Energy Blast" book="Ruleboo" page="71" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="5abd-f0fa-07f6-72fd" name="Energy Blast" book="Rulebook" page="71" hidden="false" profileTypeId="ca80-b611-54a5-fbf2" profileTypeName="Ranged Weapon">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="APs" characteristicTypeId="3c0a-fe11-d445-0c4f" value="2"/>
+                    <characteristic name="Short Range" characteristicTypeId="ef03-c22a-d909-9299" value="8"/>
+                    <characteristic name="Long Range" characteristicTypeId="8212-3e35-fc57-aeb7" value="16"/>
+                    <characteristic name="Damage" characteristicTypeId="c345-c828-2990-c666" value="2"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="80a4-5996-a636-dae6" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="5837-a331-efab-0a68" value="20.0"/>
+                <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="1.0"/>
+                <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="4ecb-e565-9a79-6e29" name="Matter Acceleration" book="Rulebook" page="71" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="4f7e-4daf-613f-9368" name="Matter Acceleration" book="Rulebook" page="71" hidden="false" profileTypeId="ca80-b611-54a5-fbf2" profileTypeName="Ranged Weapon">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="APs" characteristicTypeId="3c0a-fe11-d445-0c4f" value="2"/>
+                    <characteristic name="Short Range" characteristicTypeId="ef03-c22a-d909-9299" value="8"/>
+                    <characteristic name="Long Range" characteristicTypeId="8212-3e35-fc57-aeb7" value="16"/>
+                    <characteristic name="Damage" characteristicTypeId="c345-c828-2990-c666" value="3"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aebe-82f4-af3c-f93b" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="5837-a331-efab-0a68" value="30.0"/>
+                <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="1.0"/>
+                <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="00a7-512f-b70e-8972" name="Electric Arc" book="Ruleboo" page="71" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="a6bf-a6c7-f2bd-e085" name="Electric Arc" book="Rulebook" page="71" hidden="false" profileTypeId="ca80-b611-54a5-fbf2" profileTypeName="Ranged Weapon">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="APs" characteristicTypeId="3c0a-fe11-d445-0c4f" value="2"/>
+                    <characteristic name="Short Range" characteristicTypeId="ef03-c22a-d909-9299" value="12"/>
+                    <characteristic name="Long Range" characteristicTypeId="8212-3e35-fc57-aeb7" value="24"/>
+                    <characteristic name="Damage" characteristicTypeId="c345-c828-2990-c666" value="3"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f67d-85ed-76da-6ccf" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="5837-a331-efab-0a68" value="40.0"/>
+                <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+                <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="b567-75c6-ee0e-4887" name="Shooting Spines" book="Ruleboo" page="71" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="f194-97bd-fd95-48ad" name="Shooting Spines" book="Ruleboo" page="71" hidden="false" profileTypeId="ca80-b611-54a5-fbf2" profileTypeName="Ranged Weapon">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="APs" characteristicTypeId="3c0a-fe11-d445-0c4f" value="2"/>
+                    <characteristic name="Short Range" characteristicTypeId="ef03-c22a-d909-9299" value="8"/>
+                    <characteristic name="Long Range" characteristicTypeId="8212-3e35-fc57-aeb7" value="16"/>
+                    <characteristic name="Damage" characteristicTypeId="c345-c828-2990-c666" value="4"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2365-76f9-24dc-b1e5" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="5837-a331-efab-0a68" value="45.0"/>
+                <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="1.0"/>
+                <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="80b5-2c9c-0932-b697" name="IV - Close Combat Attacks" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries>
+            <selectionEntry id="98af-7384-24f8-6dc3" name="Claws" book="Rulebook" page="72" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="f047-68f5-c877-632d" name="Claws" book="Rulebook" page="72" hidden="false" profileTypeId="f0c1-28b4-93c2-eb79" profileTypeName="Melee Weapon">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="APs" characteristicTypeId="0013-245a-d523-d947" value="2"/>
+                    <characteristic name="Damage" characteristicTypeId="3715-e37a-341b-4ff5" value="2"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e0ff-6ed8-6410-c15e" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="5837-a331-efab-0a68" value="15.0"/>
+                <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+                <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="1.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="7d2f-c688-d7ef-7f66" name="Arm Tentacles" book="Rulebook" page="72" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="7123-8b04-719c-bf5f" name="Arm Tentacles" book="Rulebook" page="72" hidden="false" profileTypeId="f0c1-28b4-93c2-eb79" profileTypeName="Melee Weapon">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="APs" characteristicTypeId="0013-245a-d523-d947" value="2"/>
+                    <characteristic name="Damage" characteristicTypeId="3715-e37a-341b-4ff5" value="4"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c970-3a4e-7004-64f8" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="5837-a331-efab-0a68" value="25.0"/>
+                <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+                <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="1.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="bfde-e3ad-8ef0-c7eb" name="Extra Arms" book="Ruleboo" page="72" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="b0b5-7f11-5186-7ecb" name="Extra Arms" book="Rulebook" page="72" hidden="false" profileTypeId="f0c1-28b4-93c2-eb79" profileTypeName="Melee Weapon">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="APs" characteristicTypeId="0013-245a-d523-d947" value="3"/>
+                    <characteristic name="Damage" characteristicTypeId="3715-e37a-341b-4ff5" value="5"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f7cb-118b-62d2-827e" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="5837-a331-efab-0a68" value="40.0"/>
+                <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+                <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="1.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="78f7-e950-18e8-d284" name="Spined Body" book="Rulebook" page="72" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="9665-1694-f080-ea97" name="Spined Body" book="Rulebook" page="72" hidden="false" profileTypeId="f0c1-28b4-93c2-eb79" profileTypeName="Melee Weapon">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="APs" characteristicTypeId="0013-245a-d523-d947" value="3"/>
+                    <characteristic name="Damage" characteristicTypeId="3715-e37a-341b-4ff5" value="6"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules>
+                <rule id="4639-3d64-715b-5310" name="Spined Body" book="Rulebook" page="72" hidden="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <description>The Spines on the Aberrant&apos;s body make it difficult to hit the mutant, and they also absorb some shock, providing one point of armor.</description>
+                </rule>
+              </rules>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2c15-41d8-5a0a-2690" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="5837-a331-efab-0a68" value="50.0"/>
+                <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+                <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="2.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="e936-9b87-579a-c5da" name="III - Heavy Weapons" book="" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries>
+            <selectionEntry id="0d0a-0fed-9199-0262" name="Ground Control" book="Rulebook" page="72" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="e4ec-31f8-5ba7-2f0b" name="Ground Control" book="Ruleboo" page="72" hidden="false" profileTypeId="979b-aa11-d18f-36b7" profileTypeName="Heavy Weapon">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="APs" characteristicTypeId="12fc-aa59-5084-5b01" value="4"/>
+                    <characteristic name="Short Range" characteristicTypeId="d06d-a4bb-d30c-869b" value="14"/>
+                    <characteristic name="Long Range" characteristicTypeId="bcd4-800a-59dc-2e27" value="30"/>
+                    <characteristic name="Damge" characteristicTypeId="a18b-e1e3-8e32-52ea" value="7"/>
+                    <characteristic name="Template" characteristicTypeId="4974-8783-fd73-e809" value="5-inch"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5405-0342-a4b5-5667" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="5837-a331-efab-0a68" value="60.0"/>
+                <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+                <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="4.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="9399-6e48-3057-3b2a" name="Hurl Earth" book="Rulebook" page="72" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="5281-f4f7-cb45-a642" name="Hurl Earth" book="Rulebook" page="72" hidden="false" profileTypeId="979b-aa11-d18f-36b7" profileTypeName="Heavy Weapon">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="APs" characteristicTypeId="12fc-aa59-5084-5b01" value="4"/>
+                    <characteristic name="Short Range" characteristicTypeId="d06d-a4bb-d30c-869b" value="20"/>
+                    <characteristic name="Long Range" characteristicTypeId="bcd4-800a-59dc-2e27" value="44"/>
+                    <characteristic name="Damge" characteristicTypeId="a18b-e1e3-8e32-52ea" value="8"/>
+                    <characteristic name="Template" characteristicTypeId="4974-8783-fd73-e809" value="5-inch"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8c73-9a83-c9ec-d59f" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="5837-a331-efab-0a68" value="100.0"/>
+                <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+                <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="3.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="d012-5128-ad7a-eee3" name="Warp Field" book="Rulebook" page="72" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="9d20-3e27-1979-e900" name="Warp Field" book="Rulebook" page="72" hidden="false" profileTypeId="979b-aa11-d18f-36b7" profileTypeName="Heavy Weapon">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="APs" characteristicTypeId="12fc-aa59-5084-5b01" value="4"/>
+                    <characteristic name="Short Range" characteristicTypeId="d06d-a4bb-d30c-869b" value="16"/>
+                    <characteristic name="Long Range" characteristicTypeId="bcd4-800a-59dc-2e27" value="40"/>
+                    <characteristic name="Damge" characteristicTypeId="a18b-e1e3-8e32-52ea" value="9"/>
+                    <characteristic name="Template" characteristicTypeId="4974-8783-fd73-e809" value="7-inch"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dffc-bd24-fe6f-3ce5" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="5837-a331-efab-0a68" value="0.0"/>
+                <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+                <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="2.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="64bb-8457-d2cc-4f80" name="I - Armor" book="Ruleboo" page="72" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d91c-b995-f85e-4d79" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries>
+            <selectionEntry id="3fb9-f944-e52d-8fa3" name="Tough Skin (AR:1)" book="Rulebook" page="72" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2077-40e6-350b-e580" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="5837-a331-efab-0a68" value="15.0"/>
+                <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+                <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="1.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="6bfd-8fa4-1175-a2dc" name="Flexible Skin (AR:2)" book="Rulebook " page="72" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d38c-4e09-e489-feda" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="5837-a331-efab-0a68" value="20.0"/>
+                <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+                <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="2.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="55b6-4bb1-e131-6ea1" name="Carapace (AR:2" book="Ruleboo" page="72" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="77fa-b68e-5226-d9d1" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="5837-a331-efab-0a68" value="72.0"/>
+                <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+                <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="1.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="cb93-a3d7-db25-4dcf" name="Armored Plates (AR:3)" book="Rulebook" page="73" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="94c9-f0ff-99bd-8f60" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="5837-a331-efab-0a68" value="40.0"/>
+                <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+                <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="1.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="2065-f081-9cf6-091f" name="Tortoise Shell (AR:4)" book="Rulebook" page="73" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ee03-7ada-f1ef-63ef" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="5837-a331-efab-0a68" value="50.0"/>
+                <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+                <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="2.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="8558-b5cb-f74b-67a8" name="Energy Field (AR:5)" book="Rulebook" page="73" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c3ee-6b82-a16e-2505" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="5837-a331-efab-0a68" value="65.0"/>
+                <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+                <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="2.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="c7f2-e3c5-4945-c01b" name="V - Special Mutations" book="Rulebook" page="72" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries>
+            <selectionEntry id="2fd9-9b54-69d2-2ba6" name="Adrenaline Sac" book="Rulebook" page="73" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="cd17-a9aa-faf9-c02e" name="Adrenaline Sac" book="Rulebook" page="73" hidden="false" profileTypeId="75c3-d3be-b93b-85d4" profileTypeName="Special Eqipment">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="APs" characteristicTypeId="2818-1f30-5991-7aaf" value="0"/>
+                    <characteristic name="Effect" characteristicTypeId="c5fe-a184-4b5b-e81d" value="The Abberant gains two APs for the turn in which the sac is used."/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks>
+                <infoLink id="5343-01ea-e808-cf51" name="Single use" hidden="false" targetId="97d0-d6b8-99b4-be04" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="5837-a331-efab-0a68" value="15.0"/>
+                <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+                <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="1.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="df8e-a2ac-0281-4442" name="Bulging Muscles" book="Rulebook" page="73" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules>
+                <rule id="d67a-eb95-d78c-6943" name="Bulging Muscles" book="Rulebook" page="73" hidden="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <description>Add one to all Close Combat attacks (figured in). This mutation is considered permanent; it does not count as using your one green item per turn.</description>
+                </rule>
+              </rules>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="5837-a331-efab-0a68" value="20.0"/>
+                <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+                <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="1.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="fde7-e153-8560-3a0e" name="Regeneration" book="Rulebook" page="73" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="a475-f61a-1a7e-8769" name="Regeneration" book="Rulebook" page="73" hidden="false" profileTypeId="75c3-d3be-b93b-85d4" profileTypeName="Special Eqipment">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="APs" characteristicTypeId="2818-1f30-5991-7aaf" value="2"/>
+                    <characteristic name="Effect" characteristicTypeId="c5fe-a184-4b5b-e81d" value="Restores one Health to the user."/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks>
+                <infoLink id="b254-67db-f772-83fb" name="Single use" hidden="false" targetId="97d0-d6b8-99b4-be04" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="5837-a331-efab-0a68" value="20.0"/>
+                <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+                <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="1.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="c656-7a58-bc74-e7e9" name="3 - Powers" book="Rulebook" hidden="false" collective="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries>
+        <selectionEntry id="0b08-fbc0-f9d0-582b" name="Acid Skin" book="Rulebook" page="65" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="ce99-e849-f966-8ce6" name="Acid Skin" book="Rulebook" page="65" hidden="false" profileTypeId="1c0d-d92c-9d86-7ea4" profileTypeName="Power Stats">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Range" characteristicTypeId="754b-bc3b-d746-4614" value="0"/>
+                <characteristic name="APs" characteristicTypeId="03c6-1a83-b7dd-2b45" value="0"/>
+                <characteristic name="Psi/Taint Cost" characteristicTypeId="764b-9903-7944-b9ab" value="3"/>
+                <characteristic name="Damage" characteristicTypeId="9fc5-105a-3684-0efc" value="See Rules"/>
+                <characteristic name="Attack" characteristicTypeId="f4a8-2a39-c723-57b3" value="None"/>
+                <characteristic name="Template" characteristicTypeId="d1e1-5e6c-71dd-9b6a" value="None"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="cf63-7a8b-ed55-45aa" name="Acid Skin" book="Rulebook" page="65" hidden="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <description>The acid splashes opponents in Close Combat, adding one die of damage to all Close Combat attacks.</description>
+            </rule>
+          </rules>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3086-f367-913b-0390" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="5837-a331-efab-0a68" value="0.0"/>
+            <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+            <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="5ed8-ea37-2364-ceee" name="Boil" book="Rulebook" page="65" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="d892-c0b3-3eb0-9203" name="Boil" book="Rulebook" page="65" hidden="false" profileTypeId="1c0d-d92c-9d86-7ea4" profileTypeName="Power Stats">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Range" characteristicTypeId="754b-bc3b-d746-4614" value="12"/>
+                <characteristic name="APs" characteristicTypeId="03c6-1a83-b7dd-2b45" value="3"/>
+                <characteristic name="Psi/Taint Cost" characteristicTypeId="764b-9903-7944-b9ab" value="4"/>
+                <characteristic name="Damage" characteristicTypeId="9fc5-105a-3684-0efc" value="1"/>
+                <characteristic name="Attack" characteristicTypeId="f4a8-2a39-c723-57b3" value="Taint"/>
+                <characteristic name="Template" characteristicTypeId="d1e1-5e6c-71dd-9b6a" value="None"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks>
+            <infoLink id="0431-8961-52f0-4fcc" name="Sonic Attack" hidden="false" targetId="2620-5af3-c79e-5e29" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e41b-6976-2f94-17df" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="5837-a331-efab-0a68" value="0.0"/>
+            <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+            <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="2ac4-2d98-c3b7-ad74" name="Crushing Blow" book="Rulebook" page="65" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="7bc4-25e8-b805-a3b0" name="Crushing Blow" book="Rulebook" page="65" hidden="false" profileTypeId="1c0d-d92c-9d86-7ea4" profileTypeName="Power Stats">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Range" characteristicTypeId="754b-bc3b-d746-4614" value="0"/>
+                <characteristic name="APs" characteristicTypeId="03c6-1a83-b7dd-2b45" value="3"/>
+                <characteristic name="Psi/Taint Cost" characteristicTypeId="764b-9903-7944-b9ab" value="3"/>
+                <characteristic name="Damage" characteristicTypeId="9fc5-105a-3684-0efc" value="5"/>
+                <characteristic name="Attack" characteristicTypeId="f4a8-2a39-c723-57b3" value="Close Combat"/>
+                <characteristic name="Template" characteristicTypeId="d1e1-5e6c-71dd-9b6a" value="None"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="a0f2-3aa6-8c3d-10cd" name="Crushing Blow" book="Rulebook" page="65" hidden="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <description>This power substitutes for a normal Close Combat attack, inflicting quite a bit more damage than usual (no additional APs are expended for using it).</description>
+            </rule>
+          </rules>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="fa14-7dbe-9504-f844" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="5837-a331-efab-0a68" value="0.0"/>
+            <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+            <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="ea62-20cf-c7f9-f445" name="Double" book="Rulebook" page="65" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="5b90-9f61-e6b0-1d19" name="Double" book="Rulebook" page="65" hidden="false" profileTypeId="1c0d-d92c-9d86-7ea4" profileTypeName="Power Stats">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Range" characteristicTypeId="754b-bc3b-d746-4614" value="0"/>
+                <characteristic name="APs" characteristicTypeId="03c6-1a83-b7dd-2b45" value="0"/>
+                <characteristic name="Psi/Taint Cost" characteristicTypeId="764b-9903-7944-b9ab" value="3"/>
+                <characteristic name="Damage" characteristicTypeId="9fc5-105a-3684-0efc" value="None"/>
+                <characteristic name="Attack" characteristicTypeId="f4a8-2a39-c723-57b3" value="None"/>
+                <characteristic name="Template" characteristicTypeId="d1e1-5e6c-71dd-9b6a" value="None"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="10e2-e721-1dd4-68e9" name="Double" book="Rulebook" page="65" hidden="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <description>All attack rolls against the Aberrant are reduced by three dice. The image lasts for one attack only. The Aberrant must use this power before the enemy&apos;s attack dice are rolled.</description>
+            </rule>
+          </rules>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d0ed-b76c-4149-ac11" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="5837-a331-efab-0a68" value="0.0"/>
+            <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+            <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="ac11-9713-de4d-08a7" name="Ego" book="Rulebook" page="65" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="e0fe-81b2-fe8b-3dac" name="Ego" book="Rulebook" page="65" hidden="false" profileTypeId="1c0d-d92c-9d86-7ea4" profileTypeName="Power Stats">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Range" characteristicTypeId="754b-bc3b-d746-4614" value="0"/>
+                <characteristic name="APs" characteristicTypeId="03c6-1a83-b7dd-2b45" value="0"/>
+                <characteristic name="Psi/Taint Cost" characteristicTypeId="764b-9903-7944-b9ab" value="3"/>
+                <characteristic name="Damage" characteristicTypeId="9fc5-105a-3684-0efc" value="None"/>
+                <characteristic name="Attack" characteristicTypeId="f4a8-2a39-c723-57b3" value="Taint"/>
+                <characteristic name="Template" characteristicTypeId="d1e1-5e6c-71dd-9b6a" value="None"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="f8ab-410d-28d4-07ae" name="Ego" book="Rulebook" page="65" hidden="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <description>Whenever a Rout roll is called for, the Aberrant may spend three Taint points to avoid having to roll.</description>
+            </rule>
+          </rules>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="eb21-889b-49a0-e9ee" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="5837-a331-efab-0a68" value="0.0"/>
+            <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+            <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="1914-334b-c5b3-fd01" name="Energy Tentacles" book="Rulebook" page="65" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="ed77-7ad9-adde-f316" name="Energy Tentacles" book="Rulebook" page="65" hidden="false" profileTypeId="1c0d-d92c-9d86-7ea4" profileTypeName="Power Stats">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Range" characteristicTypeId="754b-bc3b-d746-4614" value="10"/>
+                <characteristic name="APs" characteristicTypeId="03c6-1a83-b7dd-2b45" value="2"/>
+                <characteristic name="Psi/Taint Cost" characteristicTypeId="764b-9903-7944-b9ab" value="4"/>
+                <characteristic name="Damage" characteristicTypeId="9fc5-105a-3684-0efc" value="None"/>
+                <characteristic name="Attack" characteristicTypeId="f4a8-2a39-c723-57b3" value="STR vs. STR"/>
+                <characteristic name="Template" characteristicTypeId="d1e1-5e6c-71dd-9b6a" value="None"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="b6c8-20c4-5664-e97c" name="Energy Tentacles" book="Rulebook" page="65" hidden="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <description>Both the Aberrant and the intended victim&apos;s player roll dice equal to the characters respective STR scores. If the Aberrant wins or ties, the enemy is immediately dragged into Close Combat (base-to-base) with the Aberrant, If the enemy wins, he remains where he is.</description>
+            </rule>
+          </rules>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="42e3-718b-183d-9d8f" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="5837-a331-efab-0a68" value="0.0"/>
+            <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+            <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="1689-ea20-577e-8dde" name="Flight" book="Rulebook" page="65" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="0298-e59a-6622-a809" name="Flight" book="Rulebook" page="65" hidden="false" profileTypeId="1c0d-d92c-9d86-7ea4" profileTypeName="Power Stats">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Range" characteristicTypeId="754b-bc3b-d746-4614" value="0"/>
+                <characteristic name="APs" characteristicTypeId="03c6-1a83-b7dd-2b45" value=""/>
+                <characteristic name="Psi/Taint Cost" characteristicTypeId="764b-9903-7944-b9ab" value="4"/>
+                <characteristic name="Damage" characteristicTypeId="9fc5-105a-3684-0efc" value="None"/>
+                <characteristic name="Attack" characteristicTypeId="f4a8-2a39-c723-57b3" value="None"/>
+                <characteristic name="Template" characteristicTypeId="d1e1-5e6c-71dd-9b6a" value="None"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="25b1-224a-74f1-4a18" name="Flight" book="Rulebook" page="65" hidden="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <description>Each AP spent on movement grants one-and-a-half inches of travel, ignoring all normal terrain modifiers. However, the character may never move more than twice her total Action Points in inches, unless “Sprinting.”
+This power may be activated in any segment of the Action Phase, not simply Move and Shoot, without penalty.</description>
+            </rule>
+          </rules>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="521e-771c-8585-22e1" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="5837-a331-efab-0a68" value="0.0"/>
+            <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+            <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="f60c-9011-798d-f668" name="Fury" book="Rulebook" page="66" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="5f09-5a13-e5a4-8843" name="Fury" book="Rulebook" page="66" hidden="false" profileTypeId="1c0d-d92c-9d86-7ea4" profileTypeName="Power Stats">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Range" characteristicTypeId="754b-bc3b-d746-4614" value="0"/>
+                <characteristic name="APs" characteristicTypeId="03c6-1a83-b7dd-2b45" value="0"/>
+                <characteristic name="Psi/Taint Cost" characteristicTypeId="764b-9903-7944-b9ab" value="0"/>
+                <characteristic name="Damage" characteristicTypeId="9fc5-105a-3684-0efc" value="None"/>
+                <characteristic name="Attack" characteristicTypeId="f4a8-2a39-c723-57b3" value="Taint"/>
+                <characteristic name="Template" characteristicTypeId="d1e1-5e6c-71dd-9b6a" value="None"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="aba4-9c51-9806-4937" name="Fury" book="Rulebook" page="66" hidden="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <description>The Aberrant makes two free attacks against an enemy who tries to escape Close Combat. Each point of Evasion Skill allows a psion to escape one of a furious Aberrant&apos;s parting attacks. </description>
+            </rule>
+          </rules>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b34a-fde6-e2ab-70cd" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="5837-a331-efab-0a68" value="0.0"/>
+            <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+            <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="5fc8-1465-0bd3-485e" name="Ground Strike" book="Rulebook" page="66" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="8c30-88c5-4392-8f7b" name="Ground Strike" book="Rulebook" page="66" hidden="false" profileTypeId="1c0d-d92c-9d86-7ea4" profileTypeName="Power Stats">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Range" characteristicTypeId="754b-bc3b-d746-4614" value="16"/>
+                <characteristic name="APs" characteristicTypeId="03c6-1a83-b7dd-2b45" value="4"/>
+                <characteristic name="Psi/Taint Cost" characteristicTypeId="764b-9903-7944-b9ab" value="4"/>
+                <characteristic name="Damage" characteristicTypeId="9fc5-105a-3684-0efc" value="None"/>
+                <characteristic name="Attack" characteristicTypeId="f4a8-2a39-c723-57b3" value="STR vs. DEX"/>
+                <characteristic name="Template" characteristicTypeId="d1e1-5e6c-71dd-9b6a" value="None"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="156d-9512-3550-ac2e" name="Ground Strike" book="Rulebook" page="66" hidden="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <description>The Aberrant player rolls dice equal to the character&apos;s STR to determine the potency of the shock waves. Every model (friend and foe) within 16 inches in any direction makes a DEX roll. Those who fail to roll successes equal to or greater than the shock wave&apos;s strength fall over and must spend four APs to stand in their next action.</description>
+            </rule>
+          </rules>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8e8b-0a3c-9f96-98f9" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="5837-a331-efab-0a68" value="0.0"/>
+            <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+            <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="9345-3403-8541-b6b6" name="Healing" book="Rulebook" page="66" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="8871-c052-dc50-ac61" name="Healing" book="Ruleook" page="66" hidden="false" profileTypeId="1c0d-d92c-9d86-7ea4" profileTypeName="Power Stats">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Range" characteristicTypeId="754b-bc3b-d746-4614" value="0"/>
+                <characteristic name="APs" characteristicTypeId="03c6-1a83-b7dd-2b45" value="4"/>
+                <characteristic name="Psi/Taint Cost" characteristicTypeId="764b-9903-7944-b9ab" value="3"/>
+                <characteristic name="Damage" characteristicTypeId="9fc5-105a-3684-0efc" value="None"/>
+                <characteristic name="Attack" characteristicTypeId="f4a8-2a39-c723-57b3" value="None"/>
+                <characteristic name="Template" characteristicTypeId="d1e1-5e6c-71dd-9b6a" value="None"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="3f20-0fe2-92ec-2eff" name="Healing" hidden="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <description>The Aberrant regenerates one Health level himself or restores one to any allied character in base-to-base contact. This power does not function on support troops.</description>
+            </rule>
+          </rules>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6887-fa38-2ced-958c" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="5837-a331-efab-0a68" value="0.0"/>
+            <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+            <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="f94d-673c-8663-827f" name="Human Form and Equipment" book="Rulebook" page="66" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="c475-3dac-cada-2769" name="Human Form and Equipment" book="Rulebook" page="66" hidden="false" profileTypeId="1c0d-d92c-9d86-7ea4" profileTypeName="Power Stats">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Range" characteristicTypeId="754b-bc3b-d746-4614" value="0"/>
+                <characteristic name="APs" characteristicTypeId="03c6-1a83-b7dd-2b45" value="0"/>
+                <characteristic name="Psi/Taint Cost" characteristicTypeId="764b-9903-7944-b9ab" value="0"/>
+                <characteristic name="Damage" characteristicTypeId="9fc5-105a-3684-0efc" value="None"/>
+                <characteristic name="Attack" characteristicTypeId="f4a8-2a39-c723-57b3" value="None"/>
+                <characteristic name="Template" characteristicTypeId="d1e1-5e6c-71dd-9b6a" value="None"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="a8d1-d666-c6ea-64f7" name="Human Form and Equipment" book="Rulebook" page="66" hidden="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <description>The player may purchase normal psion equipment for the character, but each item costs an additional 10 points due to limited availability. The Aberrant may not use green equipment. </description>
+            </rule>
+          </rules>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4bb3-d8bb-8383-e617" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="5837-a331-efab-0a68" value="0.0"/>
+            <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+            <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="78b1-f286-74fb-921c" name="Ice Storm" book="Ruleboo" page="66" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="efb9-d7cf-fb25-2a56" name="Ice Storm" book="Rulebook" page="66" hidden="false" profileTypeId="1c0d-d92c-9d86-7ea4" profileTypeName="Power Stats">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Range" characteristicTypeId="754b-bc3b-d746-4614" value="24"/>
+                <characteristic name="APs" characteristicTypeId="03c6-1a83-b7dd-2b45" value="4"/>
+                <characteristic name="Psi/Taint Cost" characteristicTypeId="764b-9903-7944-b9ab" value="3"/>
+                <characteristic name="Damage" characteristicTypeId="9fc5-105a-3684-0efc" value="6"/>
+                <characteristic name="Attack" characteristicTypeId="f4a8-2a39-c723-57b3" value="Taint"/>
+                <characteristic name="Template" characteristicTypeId="d1e1-5e6c-71dd-9b6a" value="5-inch"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="bb39-0b1f-42d9-60f8" name="Ice Storm" book="Rulebook" page="66" hidden="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <description>Treat this power as a Heavy Weapons attack, using Taint as the attack roll, and then check for deviation normally. The base damage of the power is not affected by attack successes. </description>
+            </rule>
+          </rules>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b94b-28d1-6369-da94" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="5837-a331-efab-0a68" value="0.0"/>
+            <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+            <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="80e3-3cae-0de3-7e10" name="Ice Blast" book="Rulebook" page="66" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="edc2-200a-643e-0fd0" name="Ice Blast" book="Rulebook" page="66" hidden="false" profileTypeId="1c0d-d92c-9d86-7ea4" profileTypeName="Power Stats">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Range" characteristicTypeId="754b-bc3b-d746-4614" value="16"/>
+                <characteristic name="APs" characteristicTypeId="03c6-1a83-b7dd-2b45" value="5"/>
+                <characteristic name="Psi/Taint Cost" characteristicTypeId="764b-9903-7944-b9ab" value="5"/>
+                <characteristic name="Damage" characteristicTypeId="9fc5-105a-3684-0efc" value="6"/>
+                <characteristic name="Attack" characteristicTypeId="f4a8-2a39-c723-57b3" value="Taint"/>
+                <characteristic name="Template" characteristicTypeId="d1e1-5e6c-71dd-9b6a" value="None"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="9c0e-e871-6760-928b" name="Ice Blast" book="Rulebook" page="66" hidden="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <description>This power functions like a normal Ranged attack. Roll Taint to strike and add successes rolled to the power&apos;s base damage of six dice. The target may Soak normally or defend with powers that resist cold (such as Cold Immunity). </description>
+            </rule>
+          </rules>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="904c-1292-bc74-77a5" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="5837-a331-efab-0a68" value="0.0"/>
+            <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+            <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="be49-ae06-390f-147f" name="Incredible Vision" book="Ruleboo" page="66" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="f86a-47a3-e6c9-0186" name="Incredible Vision" book="Rulebook" page="66" hidden="false" profileTypeId="1c0d-d92c-9d86-7ea4" profileTypeName="Power Stats">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Range" characteristicTypeId="754b-bc3b-d746-4614" value="0"/>
+                <characteristic name="APs" characteristicTypeId="03c6-1a83-b7dd-2b45" value="0"/>
+                <characteristic name="Psi/Taint Cost" characteristicTypeId="764b-9903-7944-b9ab" value="4"/>
+                <characteristic name="Damage" characteristicTypeId="9fc5-105a-3684-0efc" value="None"/>
+                <characteristic name="Attack" characteristicTypeId="f4a8-2a39-c723-57b3" value="None"/>
+                <characteristic name="Template" characteristicTypeId="d1e1-5e6c-71dd-9b6a" value="None"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="57d5-f9de-349f-6a39" name="Incredible Vision" book="Rulebook" page="66" hidden="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <description>Increase the Aberrant&apos;s next attack (Ranged, Heavy Weapons or taint powers, but not Close Combat) roll by two dice.</description>
+            </rule>
+          </rules>
+          <infoLinks>
+            <infoLink id="53b0-0aca-3fd4-10a6" name="Errata" hidden="false" targetId="4b0e-1228-6808-beeb" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="dd40-ec21-ffa6-5b20" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="5837-a331-efab-0a68" value="0.0"/>
+            <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+            <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="97d7-74b3-cc59-01b9" name="Large Legs" book="Ruleboo" page="66" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="ad90-d00e-2cea-ba16" name="Large Legs" book="Rulebook" page="66" hidden="false" profileTypeId="1c0d-d92c-9d86-7ea4" profileTypeName="Power Stats">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Range" characteristicTypeId="754b-bc3b-d746-4614" value="0"/>
+                <characteristic name="APs" characteristicTypeId="03c6-1a83-b7dd-2b45" value="0"/>
+                <characteristic name="Psi/Taint Cost" characteristicTypeId="764b-9903-7944-b9ab" value="0"/>
+                <characteristic name="Damage" characteristicTypeId="9fc5-105a-3684-0efc" value="None"/>
+                <characteristic name="Attack" characteristicTypeId="f4a8-2a39-c723-57b3" value="None"/>
+                <characteristic name="Template" characteristicTypeId="d1e1-5e6c-71dd-9b6a" value="None"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="42d0-caed-bc0b-60b0" name="Large Legs" book="Rulebook" page="66" hidden="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <description>The Aberrant may jump over any obstacle shorter than itself with no movement penalty, and may add one additional inch to the end of ay move. </description>
+            </rule>
+          </rules>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d41d-edca-fe44-2bc7" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="5837-a331-efab-0a68" value="0.0"/>
+            <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+            <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="56bb-6289-6586-2ef9" name="Magnetic Pulse" book="Rulebook" page="66" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="a453-ae14-2a5e-c03f" name="Magnetic Pulse" book="Rulebook" page="66" hidden="false" profileTypeId="1c0d-d92c-9d86-7ea4" profileTypeName="Power Stats">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Range" characteristicTypeId="754b-bc3b-d746-4614" value="10"/>
+                <characteristic name="APs" characteristicTypeId="03c6-1a83-b7dd-2b45" value="5"/>
+                <characteristic name="Psi/Taint Cost" characteristicTypeId="764b-9903-7944-b9ab" value="6"/>
+                <characteristic name="Damage" characteristicTypeId="9fc5-105a-3684-0efc" value="None"/>
+                <characteristic name="Attack" characteristicTypeId="f4a8-2a39-c723-57b3" value="None"/>
+                <characteristic name="Template" characteristicTypeId="d1e1-5e6c-71dd-9b6a" value="None"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="dd87-b13e-2330-d756" name="Magnetic Pulse" book="Rulebook" page="66" hidden="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <description>The Aberrant jams all Ranged and Heavy Weapons in a 10-inch radius. Place a Jammed Counter next to each eligible model within 10 inches of the Aberrant. This power does not affect Aberrant mutations. Enemies must then unjam as normal.</description>
+            </rule>
+          </rules>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="25e4-932b-2156-2b40" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="5837-a331-efab-0a68" value="0.0"/>
+            <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+            <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="dc4c-db6f-95a0-6f22" name="Mist" book="Rulebook" page="66" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="f5ec-1c49-7a3b-9375" name="Mist" book="Rulebook" page="66" hidden="false" profileTypeId="1c0d-d92c-9d86-7ea4" profileTypeName="Power Stats">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Range" characteristicTypeId="754b-bc3b-d746-4614" value="0"/>
+                <characteristic name="APs" characteristicTypeId="03c6-1a83-b7dd-2b45" value="1"/>
+                <characteristic name="Psi/Taint Cost" characteristicTypeId="764b-9903-7944-b9ab" value="3"/>
+                <characteristic name="Damage" characteristicTypeId="9fc5-105a-3684-0efc" value="None"/>
+                <characteristic name="Attack" characteristicTypeId="f4a8-2a39-c723-57b3" value="None"/>
+                <characteristic name="Template" characteristicTypeId="d1e1-5e6c-71dd-9b6a" value="None"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="e654-af41-e7ba-d488" name="Mist" book="Ruleboo" page="66" hidden="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <description>A mist-shrouded Aberrant gains the benefit of soft cover (or hard cover if already under soft cover). The mist protects the Aberrant for the duration of the turn, dispensing at the turn&apos;s end.</description>
+            </rule>
+          </rules>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4510-a185-b9da-9e93" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="5837-a331-efab-0a68" value="0.0"/>
+            <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+            <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="cce9-f8e5-5756-f338" name="Nova" book="Ruleboo" page="67" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="61bf-67f5-3d82-ceb9" name="Nova" book="Ruleboo" page="67" hidden="false" profileTypeId="1c0d-d92c-9d86-7ea4" profileTypeName="Power Stats">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Range" characteristicTypeId="754b-bc3b-d746-4614" value="12"/>
+                <characteristic name="APs" characteristicTypeId="03c6-1a83-b7dd-2b45" value="3"/>
+                <characteristic name="Psi/Taint Cost" characteristicTypeId="764b-9903-7944-b9ab" value="4"/>
+                <characteristic name="Damage" characteristicTypeId="9fc5-105a-3684-0efc" value="5"/>
+                <characteristic name="Attack" characteristicTypeId="f4a8-2a39-c723-57b3" value="None"/>
+                <characteristic name="Template" characteristicTypeId="d1e1-5e6c-71dd-9b6a" value="See Rules"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="83de-448e-7764-128d" name="Nova" book="Rulebook" page="67" hidden="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <description>All characters within a 12-inch radius of the Aberrant suffer five dice of damage automatically; this damage may be Soaked normally, but the Aberrant does not choose who&apos;s affected. Friend and foe alike suffer. Cover offers no protection against this attack.</description>
+            </rule>
+          </rules>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="91e2-103f-c701-6bcc" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="5837-a331-efab-0a68" value="0.0"/>
+            <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+            <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="1f58-9677-19fa-950d" name="Phase" book="Rulebook" page="67" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="f6e2-dbe9-2062-77f4" name="Phase" book="Rulebook" page="67" hidden="false" profileTypeId="1c0d-d92c-9d86-7ea4" profileTypeName="Power Stats">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Range" characteristicTypeId="754b-bc3b-d746-4614" value="0"/>
+                <characteristic name="APs" characteristicTypeId="03c6-1a83-b7dd-2b45" value="0"/>
+                <characteristic name="Psi/Taint Cost" characteristicTypeId="764b-9903-7944-b9ab" value="4"/>
+                <characteristic name="Damage" characteristicTypeId="9fc5-105a-3684-0efc" value="None"/>
+                <characteristic name="Attack" characteristicTypeId="f4a8-2a39-c723-57b3" value="None"/>
+                <characteristic name="Template" characteristicTypeId="d1e1-5e6c-71dd-9b6a" value="None"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="2046-ed5f-f290-34e3" name="Phase" book="Ruleboo" page="67" hidden="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <description>This power may be activated after the Aberrant has been hit by an attack, but before damage is rolled. A phasing Aberrant suffers only half damage (rounded up) from any one attack. Multiple incoming attacks each require separate use of Phase.</description>
+            </rule>
+          </rules>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9c7a-7a05-10fb-6654" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="5837-a331-efab-0a68" value="0.0"/>
+            <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+            <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="98d6-37ff-ee8c-0921" name="Plasma Blast" book="Ruleboo" page="67" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="c6aa-b981-165f-0be2" name="Plasma Blast" book="Ruleboo" page="67" hidden="false" profileTypeId="1c0d-d92c-9d86-7ea4" profileTypeName="Power Stats">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Range" characteristicTypeId="754b-bc3b-d746-4614" value="16"/>
+                <characteristic name="APs" characteristicTypeId="03c6-1a83-b7dd-2b45" value="3"/>
+                <characteristic name="Psi/Taint Cost" characteristicTypeId="764b-9903-7944-b9ab" value="3"/>
+                <characteristic name="Damage" characteristicTypeId="9fc5-105a-3684-0efc" value="3"/>
+                <characteristic name="Attack" characteristicTypeId="f4a8-2a39-c723-57b3" value="Taint"/>
+                <characteristic name="Template" characteristicTypeId="d1e1-5e6c-71dd-9b6a" value="None"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="3974-2c59-0ffa-b908" name="Plasma Blast" book="Rulebook" page="67" hidden="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <description>Roll Taint as a normal Ranged attack. As usual, add attack roll successes to the power&apos;s base damage of three.</description>
+            </rule>
+          </rules>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0a3e-fedb-1a2e-3bea" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="5837-a331-efab-0a68" value="0.0"/>
+            <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+            <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="a653-15a3-60d7-2c9e" name="Plasma Storm" book="Rulebook" page="67" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="b6b6-b9e0-afa8-5183" name="Plasma Storm" book="Ruleboo" page="67" hidden="false" profileTypeId="1c0d-d92c-9d86-7ea4" profileTypeName="Power Stats">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Range" characteristicTypeId="754b-bc3b-d746-4614" value="24"/>
+                <characteristic name="APs" characteristicTypeId="03c6-1a83-b7dd-2b45" value="3"/>
+                <characteristic name="Psi/Taint Cost" characteristicTypeId="764b-9903-7944-b9ab" value="4"/>
+                <characteristic name="Damage" characteristicTypeId="9fc5-105a-3684-0efc" value="5"/>
+                <characteristic name="Attack" characteristicTypeId="f4a8-2a39-c723-57b3" value="Taint"/>
+                <characteristic name="Template" characteristicTypeId="d1e1-5e6c-71dd-9b6a" value="5-inch"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="f1a0-8f49-c56f-2a64" name="Plasma Storm" book="Ruleboo" page="67" hidden="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <description>Treat Plasma Storm as a Heavy Weapons attack, using Taint for the attack roll and deviating normally. The five dice of damage are not augmented by successes on the attack roll.</description>
+            </rule>
+          </rules>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e2c0-cd6a-5c11-acc0" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="5837-a331-efab-0a68" value="0.0"/>
+            <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+            <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="5962-3270-2a9d-40ac" name="Quicksand" book="Rulebook" page="67" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="d7dc-8147-9196-2db1" name="Quicksand" book="Ruleboo" page="67" hidden="false" profileTypeId="1c0d-d92c-9d86-7ea4" profileTypeName="Power Stats">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Range" characteristicTypeId="754b-bc3b-d746-4614" value="18"/>
+                <characteristic name="APs" characteristicTypeId="03c6-1a83-b7dd-2b45" value="3"/>
+                <characteristic name="Psi/Taint Cost" characteristicTypeId="764b-9903-7944-b9ab" value="4"/>
+                <characteristic name="Damage" characteristicTypeId="9fc5-105a-3684-0efc" value="None"/>
+                <characteristic name="Attack" characteristicTypeId="f4a8-2a39-c723-57b3" value="Taint"/>
+                <characteristic name="Template" characteristicTypeId="d1e1-5e6c-71dd-9b6a" value="None"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="6608-a9a4-2298-91aa" name="Quicksand" book="Rulebook" page="67" hidden="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <description>The Aberrant rolls Taint score and his intended victim rolls DEX. If the enemy gets more successes, he avoids the attack. If the Aberrant ties or gets more successes, the target is stuck - place a Stuck Counter next to the figure. An immobilized character must spend four APs to free himself in his next action, and cannot perform any other actions before freeing himself.</description>
+            </rule>
+          </rules>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2022-ae02-6e9d-5249" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="5837-a331-efab-0a68" value="0.0"/>
+            <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+            <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="7b41-f0d5-af74-142e" name="Raise Ground" book="Rulebook" page="68" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="ee80-3252-8232-abae" name="Raise Ground" book="Rulebook" page="68" hidden="false" profileTypeId="1c0d-d92c-9d86-7ea4" profileTypeName="Power Stats">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Range" characteristicTypeId="754b-bc3b-d746-4614" value="0"/>
+                <characteristic name="APs" characteristicTypeId="03c6-1a83-b7dd-2b45" value="2"/>
+                <characteristic name="Psi/Taint Cost" characteristicTypeId="764b-9903-7944-b9ab" value="4"/>
+                <characteristic name="Damage" characteristicTypeId="9fc5-105a-3684-0efc" value="None"/>
+                <characteristic name="Attack" characteristicTypeId="f4a8-2a39-c723-57b3" value="None"/>
+                <characteristic name="Template" characteristicTypeId="d1e1-5e6c-71dd-9b6a" value="None"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="dce8-5d4a-3c4b-12e1" name="Raise Ground" book="Ruleboo" page="68" hidden="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <description>The Aberrant commands the very rock at its feet to rise and interject itself between the character and his enemies, providing hard cover. Place a Raised Ground counter anywhere touching the model&apos;s base.</description>
+            </rule>
+          </rules>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="82a9-c0f1-1747-2b76" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="5837-a331-efab-0a68" value="0.0"/>
+            <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+            <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="f2c9-162c-fcfd-fb63" name="Ranged Healing" book="Ruleoo" page="68" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="29c9-c87e-f1e1-034f" name="Ranged Healing" book="Ruleboo" page="68" hidden="false" profileTypeId="1c0d-d92c-9d86-7ea4" profileTypeName="Power Stats">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Range" characteristicTypeId="754b-bc3b-d746-4614" value="8"/>
+                <characteristic name="APs" characteristicTypeId="03c6-1a83-b7dd-2b45" value="4"/>
+                <characteristic name="Psi/Taint Cost" characteristicTypeId="764b-9903-7944-b9ab" value="5"/>
+                <characteristic name="Damage" characteristicTypeId="9fc5-105a-3684-0efc" value="None"/>
+                <characteristic name="Attack" characteristicTypeId="f4a8-2a39-c723-57b3" value="None"/>
+                <characteristic name="Template" characteristicTypeId="d1e1-5e6c-71dd-9b6a" value="None"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="f7bb-83d5-f7fa-e613" name="Ranged Healing" book="Ruleboo" page="68" hidden="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <description>Any single model within the eight-inch range of this power recovers one Health level of damage. This power does not function upon support troops. </description>
+            </rule>
+          </rules>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7536-797c-a02b-0a87" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="5837-a331-efab-0a68" value="0.0"/>
+            <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+            <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="609b-b05c-6942-9a21" name="Resistance" book="Rulebook" page="68" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="8f64-0adc-2fa3-222e" name="Resistance" book="Rulebook" page="68" hidden="false" profileTypeId="1c0d-d92c-9d86-7ea4" profileTypeName="Power Stats">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Range" characteristicTypeId="754b-bc3b-d746-4614" value="0"/>
+                <characteristic name="APs" characteristicTypeId="03c6-1a83-b7dd-2b45" value="0"/>
+                <characteristic name="Psi/Taint Cost" characteristicTypeId="764b-9903-7944-b9ab" value="4"/>
+                <characteristic name="Damage" characteristicTypeId="9fc5-105a-3684-0efc" value="None"/>
+                <characteristic name="Attack" characteristicTypeId="f4a8-2a39-c723-57b3" value="None"/>
+                <characteristic name="Template" characteristicTypeId="d1e1-5e6c-71dd-9b6a" value="None"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="284a-5bd2-22a0-76c1" name="Resistance" book="Rulebook" page="68" hidden="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <description>The character continues to act even after it is reduced to 0 Health. If the character takes subsequent damage, it must make a successful STA roll at a one-die penalty for each point of damage taken in the attack. If the roll succeeds, the Aberrant remains on its feet and active. When a STA roll fails, the character is considered dead automatically and is taken out of play. The character must spend four Taint per turn to stay active. If he runs out of Taint, he falls to the ground an may not recover unless healed as normal.</description>
+            </rule>
+          </rules>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="74ee-a1d9-7ecf-6c5f" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="5837-a331-efab-0a68" value="0.0"/>
+            <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+            <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="a0f1-27c3-8d19-6c22" name="Sense Psi" book="Rulebook" page="68" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="06db-6e24-e5d0-29ab" name="Sense Psi" book="Rulebook" page="68" hidden="false" profileTypeId="1c0d-d92c-9d86-7ea4" profileTypeName="Power Stats">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Range" characteristicTypeId="754b-bc3b-d746-4614" value="0"/>
+                <characteristic name="APs" characteristicTypeId="03c6-1a83-b7dd-2b45" value=""/>
+                <characteristic name="Psi/Taint Cost" characteristicTypeId="764b-9903-7944-b9ab" value="2"/>
+                <characteristic name="Damage" characteristicTypeId="9fc5-105a-3684-0efc" value="None"/>
+                <characteristic name="Attack" characteristicTypeId="f4a8-2a39-c723-57b3" value="None"/>
+                <characteristic name="Template" characteristicTypeId="d1e1-5e6c-71dd-9b6a" value="None"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="654e-dad2-04cc-be15" name="Sense Psi" book="Rulebook" page="68" hidden="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <description>This power activates automatically whenever the character is attacked with a psi power. The psion attacker loses one die from the attack roll.</description>
+            </rule>
+          </rules>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="dfc2-a8c8-248a-03f9" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="5837-a331-efab-0a68" value="0.0"/>
+            <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+            <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="9174-61d2-c308-b10c" name="Synaptic Disruption" book="Rulebook" page="68" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="586b-88ad-1d99-813a" name="Synaptic Disruption" book="Rulebook" page="68" hidden="false" profileTypeId="1c0d-d92c-9d86-7ea4" profileTypeName="Power Stats">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Range" characteristicTypeId="754b-bc3b-d746-4614" value="18"/>
+                <characteristic name="APs" characteristicTypeId="03c6-1a83-b7dd-2b45" value="3"/>
+                <characteristic name="Psi/Taint Cost" characteristicTypeId="764b-9903-7944-b9ab" value="2"/>
+                <characteristic name="Damage" characteristicTypeId="9fc5-105a-3684-0efc" value="None"/>
+                <characteristic name="Attack" characteristicTypeId="f4a8-2a39-c723-57b3" value="MEN"/>
+                <characteristic name="Template" characteristicTypeId="d1e1-5e6c-71dd-9b6a" value="None"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="a757-fa0a-e3a8-a771" name="Synaptic Disruption" book="Ruleboo" page="68" hidden="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <description>This power may be used on only one model within 18 inches (cover does not apply, line-of-sight does however). No roll to hit is required; simply announce the target and spend the Action Points and Taint Points. The Aberrant rolls dice equal to the MEN rating. If the result is equal or greater then the MEN score of the target, place a Confused Counter next to the target. Upon the victim&apos;s next opportunity to spend Action Points, the Confused Counter is removed in lieu of taking any actions. </description>
+            </rule>
+          </rules>
+          <infoLinks>
+            <infoLink id="8fa7-8939-5248-4e3d" name="Errata" hidden="false" targetId="4b0e-1228-6808-beeb" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4fe4-814e-a70e-aa1e" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="5837-a331-efab-0a68" value="0.0"/>
+            <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+            <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="438b-e1d1-33e9-9fc6" name="Transmutation" book="Rulebook" page="68" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="78d2-d7ea-bc31-48af" name="Transmutation" book="Rulebook" page="68" hidden="false" profileTypeId="1c0d-d92c-9d86-7ea4" profileTypeName="Power Stats">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Range" characteristicTypeId="754b-bc3b-d746-4614" value="8"/>
+                <characteristic name="APs" characteristicTypeId="03c6-1a83-b7dd-2b45" value="5"/>
+                <characteristic name="Psi/Taint Cost" characteristicTypeId="764b-9903-7944-b9ab" value="4"/>
+                <characteristic name="Damage" characteristicTypeId="9fc5-105a-3684-0efc" value="None"/>
+                <characteristic name="Attack" characteristicTypeId="f4a8-2a39-c723-57b3" value="Taint"/>
+                <characteristic name="Template" characteristicTypeId="d1e1-5e6c-71dd-9b6a" value="None"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="e847-5060-c17e-8ab3" name="Transmutation" book="Rulebook" page="68" hidden="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <description>Roll Taint to activate this power. The player must roll successes in excess of the target&apos;s Armor Rating to destroy his protection. This power works only on psion armor (blue counters). A piece of armor destroyed this way is removed from play permanently.
+Armor destroyed by use of this power may be repaired in campaign games. Roll a number of dice equal to the rating of the Armor. If you score any successes, the Armor is repaired after the battle and may be used again in the next game. Psi-formatting may be used to increase the rating of Armor when it is attacked with this power.</description>
+            </rule>
+          </rules>
+          <infoLinks>
+            <infoLink id="bebc-19c3-19cb-cb0f" name="Errata" hidden="false" targetId="4b0e-1228-6808-beeb" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0c03-36f4-c643-724d" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="5837-a331-efab-0a68" value="0.0"/>
+            <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+            <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="7271-0715-79c9-2138" name="Tumorous Appearance" book="Rulebook" page="68" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="5f37-35cd-8fea-baba" name="Tumorous Appearance" book="Ruleboo" page="68" hidden="false" profileTypeId="1c0d-d92c-9d86-7ea4" profileTypeName="Power Stats">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Range" characteristicTypeId="754b-bc3b-d746-4614" value="0"/>
+                <characteristic name="APs" characteristicTypeId="03c6-1a83-b7dd-2b45" value="0"/>
+                <characteristic name="Psi/Taint Cost" characteristicTypeId="764b-9903-7944-b9ab" value="0"/>
+                <characteristic name="Damage" characteristicTypeId="9fc5-105a-3684-0efc" value="None"/>
+                <characteristic name="Attack" characteristicTypeId="f4a8-2a39-c723-57b3" value="None"/>
+                <characteristic name="Template" characteristicTypeId="d1e1-5e6c-71dd-9b6a" value="None"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="2400-835e-b6db-b48c" name="Tumorous Appearance" book="Ruleboo" page="68" hidden="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <description>The Aberrant alters its appearance prior to battle to be so hideous that any human character engaging it in Close Combat loses one die from attack rolls.</description>
+            </rule>
+          </rules>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7150-deb0-1bb2-662b" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="5837-a331-efab-0a68" value="0.0"/>
+            <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+            <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="f05d-1467-c0f5-f043" name="Warp" book="Rulebook" page="68" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="e220-6f8b-9bb5-a783" name="Warp" book="Rulebook" page="68" hidden="false" profileTypeId="1c0d-d92c-9d86-7ea4" profileTypeName="Power Stats">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Range" characteristicTypeId="754b-bc3b-d746-4614" value="0"/>
+                <characteristic name="APs" characteristicTypeId="03c6-1a83-b7dd-2b45" value="0"/>
+                <characteristic name="Psi/Taint Cost" characteristicTypeId="764b-9903-7944-b9ab" value="5"/>
+                <characteristic name="Damage" characteristicTypeId="9fc5-105a-3684-0efc" value="None"/>
+                <characteristic name="Attack" characteristicTypeId="f4a8-2a39-c723-57b3" value="None"/>
+                <characteristic name="Template" characteristicTypeId="d1e1-5e6c-71dd-9b6a" value="None"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="06ca-9ac0-0556-7a36" name="Warp" book="Rulebook" page="68" hidden="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <description>This power allows the character to take a free four-inch move at the moment that the power is activated. The figure ignores any objects such as walls or trees within those four inches. The distance warped may also be extended by spending additional Taint points equal to the power&apos;s normal cost - doubling the power&apos;s Taint cost to 10 allows the Aberrant to travel eight inches, and so on. The Aberrant may warp in any direction desired.</description>
+            </rule>
+          </rules>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e3c6-55e4-8df3-9e58" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3b79-74e6-0f8e-18aa" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="5837-a331-efab-0a68" value="0.0"/>
+            <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+            <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks/>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
+  <sharedRules/>
+  <sharedProfiles/>
+</catalogue>
